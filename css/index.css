@@ -1,0 +1,716 @@
+@import url("base.css");
+
+@media screen and (min-width:1070px ) {
+.one{
+	width: 100%;
+	height: 40px;
+	background: #444;
+	margin: 0 auto;
+}
+.ones{
+	width: 976px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 12px;
+	color: #a8a8aa;
+	line-height: 40px;
+}
+.box{
+	width: 100%;
+	height: 594px;
+	margin: 0 auto;
+	position: relative;
+}
+.tu{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url(../img/iphone.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+	background-color: #000;
+}
+.dh{
+	width: 1000px;
+	height: 44px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -500px;
+}
+.dh li{
+	width: 11.11%;
+	height: 44px;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+.dh li a{
+	color: #fff;
+	font-size: 14px;
+	line-height: 44px;
+}
+.dh li a:hover{
+	color: #ccc;
+}
+.dhs{display: none;}
+.i7{
+	width: 100px;
+	height: 80px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: 60px;
+	margin-left: -50px;
+}
+.i7 a{
+	width: 100px;
+	height: 80px;
+	font-size: 35px;
+	color: #fff;
+}
+.i7 a span{
+	float: left;
+}
+.tu4{
+	width: 100%;
+	height: 205px;
+	margin: 0 auto;
+}
+.tu4 li{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.tu4 .tu4s1{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box; 
+}
+.tu4 .tu4s1 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/1.jpg);
+}
+.tu4 .tu4s2{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+}
+.tu4 .tu4s2 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/2.jpg);
+}
+.tu4 .tu4s3{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+}
+.tu4 .tu4s3 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/3.jpg);
+}
+.tu4 .tu4s4{
+	border-top: 2px solid #fff;
+	box-sizing: border-box;
+}
+.tu4 .tu4s4 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/4.jpg);
+	background-repeat: no-repeat;
+}
+
+.zi{
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+    color: #999;
+    padding: 10px 0 0 11px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.dibu{
+	width: 100%;
+	height: 385px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+.xk{
+	width: 980px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.xks{
+	width: 20%;
+	height: 240px;
+	float: left;
+}
+.xkk{
+	width: 100%;
+	float: left;
+}
+.xkk h3{
+	width: 100%;
+	float: left;
+	height: 20px;
+	font-size: 12px;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+}
+.xkk ul{
+	width: 100%;
+	float: left;
+}
+.xkk ul li{
+	width: 100%;
+	height: 20px;
+	float: left;
+	font-size: 12px;
+    color: #CCCCCC;
+    display: block;
+}
+.xkk ul li a{
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.gy{
+	width: 100%;
+}
+.gy .gy1{
+	display: block;
+	width: 100%;
+	height: 20px;
+	font-size: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+.gy .gy2{
+	display: block;
+	width: 60%;
+	height: 20px;
+	font-size: 12px;
+	text-align: left;
+	float: left;
+}
+.gy .gy3{
+	display: block;
+	width: 60%;
+	height: 20px;
+	font-size: 12px;
+	text-align: left;
+	float: left;
+}
+.gy .gy4{
+	float: right;
+}
+}
+
+
+@media screen and (min-width:735px ) and (max-width:1070px){
+.one{
+	width: 100%;
+	height: 40px;
+	background: #444;
+	margin: 0 auto;
+	position: relative;
+}
+.ones{
+	width: 100%;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	color: #a8a8aa;
+	line-height: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*margin-left: 50%;*/
+}
+.box{
+	width: 100%;
+	height: 594px;
+	margin: 0 auto;
+	position: relative;
+}
+.tu{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url(../img/iphone.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+	background-color: #000;
+}
+.dh{
+	width: 100%;
+	height: 44px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.dh li{
+	width: 11.11%;
+	height: 44px;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+.dh li a{
+	color: #fff;
+	font-size: 14px;
+	line-height: 44px;
+}
+.dh li a:hover{
+	color: #ccc;
+}
+.dhs{display: none;}
+.i7{
+	width: 100px;
+	height: 80px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: 60px;
+	margin-left: -50px;
+}
+.i7 a{
+	width: 100px;
+	height: 80px;
+	font-size: 35px;
+	color: #fff;
+}
+.i7 a span{
+	float: left;
+}
+.tu4{
+	width: 100%;
+	height: 410px;
+	margin: 0 auto;
+}
+
+.tu4 li{
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+.tu4 .tu4s1{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box; 
+}
+.tu4 .tu4s1 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/1s.jpg);
+	background-position: center;
+}
+.tu4 .tu4s2{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+}
+.tu4 .tu4s2 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/2s.jpg);
+	background-position: center;
+}
+.tu4 .tu4s3{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+}
+.tu4 .tu4s3 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/3s.jpg);
+	background-position: center;
+}
+.tu4 .tu4s4{
+	border-top: 2px solid #fff;
+	box-sizing: border-box;
+}
+.tu4 .tu4s4 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/4s.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zi{
+	width: 100%px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+    color: #999;
+    padding: 10px 0 0 11px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.dibu{
+	width: 100%;
+	height: 385px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+.xk{
+	width: 100%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.xks{
+	width: 20%;
+	height: 240px;
+	float: left;
+}
+.xkk{
+	width: 100%;
+	float: left;
+}
+.xkk h3{
+	width: 100%;
+	float: left;
+	height: 20px;
+	font-size: 12px;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+}
+.xkk ul{
+	width: 100%;
+	float: left;
+}
+.xkk ul li{
+	width: 100%;
+	height: 20px;
+	float: left;
+	font-size: 12px;
+    color: #CCCCCC;
+    display: block;
+}
+.xkk ul li a{
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.gy{
+	width: 100%;
+}
+.gy .gy1{
+	display: block;
+	width: 100%;
+	height: 20px;
+	font-size: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+.gy .gy2{
+	display: block;
+	width: 60%;
+	height: 20px;
+	font-size: 12px;
+	text-align: left;
+	float: left;
+}
+.gy .gy3{
+	display: block;
+	width: 60%;
+	height: 20px;
+	font-size: 12px;
+	text-align: left;
+	float: left;
+}
+.gy .gy4{
+	float: right;
+}
+}
+
+@media screen and (max-width:735px ) {
+.one{
+	width: 100%;
+	height: 40px;
+	background: #444;
+	margin: 0 auto;
+	position: relative;
+}
+.ones{
+	width: 100%;
+	height: 40px;
+	text-align: right;
+	font-size: 12px;
+	color: #a8a8aa;
+	line-height: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*margin-left: 50%;*/
+}
+.box{
+	width: 100%;
+	height: 594px;
+	margin: 0 auto;
+	position: relative;
+}
+.tu{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url(../img/iphone.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+	background-color: #000;
+}
+.dh{
+	width: 100%;
+	height: 44px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -500px;
+	display: none;
+}
+.dh li{
+	width: 11.11%;
+	height: 44px;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+.dh li a{
+	color: #fff;
+	font-size: 14px;
+	line-height: 44px;
+}
+.dh li a:hover{
+	color: #ccc;
+}
+.dhs{
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+	color: #fff;
+	z-index: 99999;
+	cursor: pointer;
+}
+.dhs ul{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	z-index: 999999;
+	display: none;
+}
+.dhs ul li{
+	width: 60px;
+	height: 40px;
+	float: left;
+}
+.dhs ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.i7{
+	width: 100px;
+	height: 80px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: 60px;
+	margin-left: -50px;
+}
+.i7 a{
+	width: 100px;
+	height: 80px;
+	font-size: 35px;
+	color: #fff;
+}
+.i7 a span{
+	float: left;
+}
+.tu4{
+	width: 100%;
+	height: 820px;
+	margin: 0 auto;
+}
+
+.tu4 li{
+	width: 100%;
+	height: 25%;
+	float: left;
+}
+.tu4 .tu4s1{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box; 
+}
+.tu4 .tu4s1 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/1ss.jpg);
+	background-position: center;
+}
+.tu4 .tu4s2{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+}
+.tu4 .tu4s2 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/2ss.jpg);
+	background-position: center;
+}
+.tu4 .tu4s3{
+	border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+}
+.tu4 .tu4s3 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/3ss.jpg);
+	background-position: center;
+}
+.tu4 .tu4s4{
+	border-top: 2px solid #fff;
+	box-sizing: border-box;
+}
+.tu4 .tu4s4 a{
+	width: 100%;
+	height: 200px;
+	display: block;
+	background-image: url(../img/4ss.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.zi{
+	width: 100%px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+    color: #999;
+    padding: 10px 0 0 11px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.dibu{
+	width: 100%;
+	/*height: 385px;*/
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+.xk{
+	width: 100%;
+	padding: 0 10px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.xks{
+	width: 100%;
+	float: left;
+}
+.xkk{
+	width: 100%;
+	/*height: 39px;*/
+	float: left;
+	border-bottom: 1px solid silver;
+	position: relative;
+}
+.xkk h3{
+	width: 100%;
+	height: 100%;
+	float: left;
+	line-height: 39px;
+	font-size: 12px;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+}
+.xkk ul{
+	width: 100%;
+	float: left;
+	display: none;
+	/*padding-top: 39px;
+	position: absolute;
+	left: 0;
+	top: 0;*/
+	
+}
+.xkk ul li{
+	width: 100%;
+	height: 20px;
+	float: left;
+	font-size: 12px;
+    color: #CCCCCC;
+    display: block;
+}
+.xkk ul li a{
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.gy{
+	width: 100%;
+}
+.gy .gy1{
+	display: block;
+	width: 100%;
+	height: 40px;
+	font-size: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+.gy .gy2{
+	display: block;
+	width: 80%;
+	height: 40px;
+	font-size: 12px;
+	text-align: left;
+	float: left;
+}
+.gy .gy3{
+	display: block;
+	width: 60%;
+	height: 40px;
+	font-size: 12px;
+	text-align: left;
+	float: left;
+}
+.gy .gy4{
+	float: right;
+}
+}
